@@ -16,6 +16,16 @@
   //   background-color: clr(neutral, 100);
   // }
 
+  // .bg-primary-400 & {
+  //   color: clr(primary, 400);
+  //   background-color: clr(neutral, 100);
+  // }
+
+  &[data-type="inverted"] {
+    color: clr(primary, 400);
+    background-color: clr(neutral, 100);
+  }
+
   &:hover,
   &:focus {
     color: clr(neutral, 100);
